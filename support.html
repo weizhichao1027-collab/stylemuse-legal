@@ -1,38 +1,171 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ImagineOutfit Support</title>
+  <meta name="theme-color" content="#f7f4ee">
+  <title>Support — ImagineOutfit</title>
+  <meta name="description" content="ImagineOutfit support for provider setup, image generation, the seven-day trial, lifetime access, purchases, privacy controls, and troubleshooting.">
+  <link rel="canonical" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html">
+  <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/support.html">
+  <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ImagineOutfit Support">
+  <meta property="og:description" content="Setup guidance, purchase help, privacy controls, and direct contact information.">
+  <meta property="og:url" content="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main class="page prose">
-    <nav class="topnav"><a href="index.html">ImagineOutfit</a><a href="privacy.html">Privacy Policy</a></nav>
-    <h1>ImagineOutfit Support</h1>
-    <p class="updated">Last updated: September 11, 2026</p>
+<body class="document-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="ImagineOutfit home">
+        <img src="assets/app-icon.webp" alt="" width="40" height="40">
+        <span>ImagineOutfit</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Overview</a>
+        <a aria-current="page" href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+        <a class="language-link" href="zh/support.html" lang="zh-Hans" hreflang="zh-Hans">中文</a>
+      </div>
+    </nav>
+  </header>
 
-    <h2>Trial and Lifetime Access</h2>
-    <p>The free download includes a seven-day full-feature trial. The trial does not renew or charge automatically. After it ends, lifetime access is available as a single non-consumable In-App Purchase.</p>
-    <p>The trial and lifetime purchase unlock the app only. Image generation uses the API account you configure, and that provider may charge separately. Image-generation credits are not included.</p>
-    <p>If access does not update after reinstalling or changing devices, use Restore Purchases. Privacy and local-data deletion controls remain available after the trial expires.</p>
+  <main id="main" class="document-shell support-shell">
+    <header class="document-hero">
+      <p class="eyebrow">HELP WHEN YOU NEED IT</p>
+      <h1>ImagineOutfit Support</h1>
+      <p class="document-summary">Setup guidance, purchase help, privacy controls, and a direct way to reach the developer.</p>
+      <p class="updated">Last updated: September 11, 2026</p>
+    </header>
 
-    <h2>Getting Started</h2>
-    <p>Choose a provider in Settings, enter compatible image generation credentials, and test the connection. A configured provider and network access are required to generate an image.</p>
+    <section class="support-contact-grid" aria-labelledby="contact-title">
+      <div class="support-contact-primary">
+        <p class="section-number">CONTACT</p>
+        <h2 id="contact-title">Tell us what happened.</h2>
+        <p>For app issues, feedback, or feature requests, email is the best place to start. Support is available in English and Chinese.</p>
+        <a class="button button-light" href="mailto:weizhichao1027@gmail.com?subject=ImagineOutfit%20Support">Email support</a>
+      </div>
+      <dl class="contact-details">
+        <div><dt>Developer</dt><dd>Zhichao Wei</dd></div>
+        <div><dt>Email</dt><dd><a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a></dd></div>
+        <div><dt>Phone</dt><dd><a href="tel:+8613501762709">+86&nbsp;135&nbsp;0176&nbsp;2709</a></dd></div>
+        <div><dt>Public issue tracker</dt><dd><a href="https://github.com/weizhichao1027-collab/stylemuse-legal/issues">Open on GitHub <span aria-hidden="true">↗</span></a></dd></div>
+      </dl>
+    </section>
 
-    <h2>Provider Help</h2>
-    <ul>
-      <li>Confirm the API key has image generation access.</li>
-      <li>Confirm the endpoint and model match the provider account.</li>
-      <li>Review the provider's quota, billing, and retention settings.</li>
-    </ul>
+    <div class="privacy-reminder" role="note">
+      <strong>Protect your private information.</strong>
+      <span>Never send API keys, SecretId/SecretKey pairs, private photos, full provider responses, or purchase receipts by email or in a public GitHub issue.</span>
+    </div>
 
-    <h2>Privacy and Local Data</h2>
-    <p>API keys are stored in the iOS Keychain. Generated looks and preferences are stored locally. Settings can clear the key, delete saved looks, and reset local state.</p>
+    <div class="document-layout">
+      <aside class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <a href="#quick-start">Quick start</a>
+        <a href="#generation">Generation issues</a>
+        <a href="#purchases">Trial and purchases</a>
+        <a href="#photos">Photos and saved looks</a>
+        <a href="#privacy-controls">Privacy controls</a>
+        <a href="#report">What to include</a>
+      </aside>
 
-    <h2>Report an Issue</h2>
-    <p>Include the app version, iOS version, provider, endpoint host, model, and visible error. Do not include API keys or private images.</p>
-    <p><a class="button" href="https://github.com/weizhichao1027-collab/stylemuse-legal/issues">Open a Support Issue</a></p>
+      <article class="prose support-prose">
+        <section id="quick-start">
+          <h2>1. Quick start</h2>
+          <ol>
+            <li>Open <strong>Settings → Generation provider</strong>.</li>
+            <li>Choose a compatible provider and confirm its endpoint and model.</li>
+            <li>Enter credentials from your own provider account, then save the configuration.</li>
+            <li>Run <strong>Test API Connection</strong>. Resolve authentication, quota, or billing messages before generating.</li>
+            <li>Open <strong>Create</strong>, choose a clear reference photo, select one preview, and generate your first look.</li>
+          </ol>
+          <p>ImagineOutfit does not issue API keys or include image-generation credits. Provider setup, availability, models, quotas, retention, and charges are managed by the provider you choose.</p>
+        </section>
+
+        <section id="generation">
+          <h2>2. If generation does not complete</h2>
+          <div class="help-cards">
+            <article>
+              <h3>Authentication failed</h3>
+              <p>Create or copy a valid credential from the provider's official dashboard. Check that it has image-generation access and that no extra spaces were pasted.</p>
+            </article>
+            <article>
+              <h3>Quota or billing blocked</h3>
+              <p>Review the provider's balance, billing status, usage limit, and model access. App Store purchases do not pay provider API charges.</p>
+            </article>
+            <article>
+              <h3>Endpoint or model rejected</h3>
+              <p>Return to the provider preset, restore its recommended endpoint, and select a compatible image editing or generation model.</p>
+            </article>
+            <article>
+              <h3>Request timed out</h3>
+              <p>Keep the network available, reopen the app to allow supported tasks to resume, or try one preview before increasing the count.</p>
+            </article>
+            <article>
+              <h3>Reference photo rejected</h3>
+              <p>Use one well-lit person facing the camera. For a full outfit, include the knees and ankles and avoid an extremely narrow crop.</p>
+            </article>
+            <article>
+              <h3>Result needs another pass</h3>
+              <p>Review the face, skin tone, hands, pose, background, and clothing details. Adjust the prompt or reference and regenerate when needed.</p>
+            </article>
+          </div>
+        </section>
+
+        <section id="purchases">
+          <h2>3. Trial, lifetime access, and restoration</h2>
+          <ul>
+            <li>The seven-day full-feature trial is a free non-consumable App Store item. It never renews and never charges automatically.</li>
+            <li>Lifetime Access is an optional, one-time non-consumable purchase. It is not a subscription.</li>
+            <li>Both products unlock the app only. Image-generation credits and provider usage are separate.</li>
+            <li>To restore lifetime access after reinstalling or changing devices, sign in with the Apple Account that made the purchase and use <strong>Restore Purchases</strong>.</li>
+            <li>If an Apple purchase remains pending or fails, check the App Store payment method and purchase history, then try again.</li>
+          </ul>
+          <p>Apple controls App Store payment processing, receipts, and eligible refunds. To request an Apple purchase refund, visit <a href="https://reportaproblem.apple.com/">reportaproblem.apple.com <span aria-hidden="true">↗</span></a>.</p>
+        </section>
+
+        <section id="photos">
+          <h2>4. Camera, Photos, and saved looks</h2>
+          <ul>
+            <li>Camera access is used only when you choose to capture a reference photo.</li>
+            <li>Photos access lets you choose a reference or inspiration image and save selected results.</li>
+            <li>If permission was denied, open iOS <strong>Settings → ImagineOutfit</strong> and review Camera or Photos access.</li>
+            <li>Saved looks are local to the device. Delete a look in the Saved tab; delete exported copies separately in Photos.</li>
+          </ul>
+        </section>
+
+        <section id="privacy-controls">
+          <h2>5. Privacy and local data controls</h2>
+          <p>API credentials are stored in the iOS Keychain. Generated looks and preferences are stored locally. Open <strong>Settings → Privacy &amp; Local Data</strong> to clear credentials, delete saved looks, or reset local app data.</p>
+          <p>Resetting local data cannot erase a request already received by your provider or remove copies already exported or shared. Use the provider's account controls for provider-held data. Read the complete <a href="privacy.html">Privacy Policy</a> for the exact data flow and retention details.</p>
+        </section>
+
+        <section id="report">
+          <h2>6. What to include in a support request</h2>
+          <ul>
+            <li>ImagineOutfit version and build number.</li>
+            <li>iPhone or iPad model and iOS/iPadOS version.</li>
+            <li>Selected provider, endpoint host, and model name.</li>
+            <li>The exact visible error message and the step where it appeared.</li>
+            <li>Whether Test API Connection succeeds.</li>
+          </ul>
+          <p>You may include a screenshot after removing keys, personal photos, account identifiers, and other private information.</p>
+          <a class="button button-primary" href="mailto:weizhichao1027@gmail.com?subject=ImagineOutfit%20Support">Contact ImagineOutfit Support</a>
+        </section>
+      </article>
+    </div>
   </main>
+
+  <footer class="site-footer compact-footer">
+    <div class="section-shell footer-bottom">
+      <span>© 2026 Zhichao Wei. All rights reserved.</span>
+      <span><a href="index.html">ImagineOutfit</a> · <a href="privacy.html">Privacy Policy</a> · <a href="zh/support.html" lang="zh-Hans">中文</a></span>
+    </div>
+  </footer>
 </body>
 </html>

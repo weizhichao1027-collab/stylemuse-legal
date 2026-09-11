@@ -1,6 +1,10 @@
-# ImagineOutfit Legal Pages
+# ImagineOutfit Website
 
-Public GitHub Pages content for ImagineOutfit privacy and support links.
+Public, bilingual GitHub Pages website for ImagineOutfit / 灵感穿搭.
 
-- `privacy.html`: Privacy Policy
-- `support.html`: Support page
+- `index.html`: English product and marketing page
+- `privacy.html`: English Privacy Policy and privacy choices
+- `support.html`: English support center and direct contact information
+- `zh/`: Simplified Chinese versions of all three pages
+- `assets/`: optimized app icon, editorial image, and verified app screenshots
+- `sitemap.xml` and `robots.txt`: search-engine discovery metadata

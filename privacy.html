@@ -1,51 +1,158 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>ImagineOutfit Privacy Policy</title>
+  <meta name="theme-color" content="#f7f4ee">
+  <title>Privacy Policy — ImagineOutfit</title>
+  <meta name="description" content="How ImagineOutfit handles photos, prompts, provider credentials, purchases, support messages, and data deletion choices.">
+  <link rel="canonical" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html">
+  <link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html">
+  <link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html">
+  <link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ImagineOutfit Privacy Policy">
+  <meta property="og:description" content="A clear explanation of app data flows, third-party providers, retention, deletion, and user choices.">
+  <meta property="og:url" content="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <main class="page prose">
-    <nav class="topnav"><a href="index.html">ImagineOutfit</a><a href="support.html">Support</a></nav>
-    <h1>ImagineOutfit Privacy Policy</h1>
-    <p class="updated">Last updated: September 11, 2026</p>
+<body class="document-page">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav-shell" aria-label="Primary navigation">
+      <a class="brand" href="index.html" aria-label="ImagineOutfit home">
+        <img src="assets/app-icon.webp" alt="" width="40" height="40">
+        <span>ImagineOutfit</span>
+      </a>
+      <div class="nav-links">
+        <a href="index.html">Overview</a>
+        <a href="support.html">Support</a>
+        <a aria-current="page" href="privacy.html">Privacy</a>
+        <a class="language-link" href="zh/privacy.html" lang="zh-Hans" hreflang="zh-Hans">中文</a>
+      </div>
+    </nav>
+  </header>
 
-    <p>ImagineOutfit creates AI-generated outfit inspiration from photos and descriptions selected by the user. The app offers a seven-day free trial and an optional one-time lifetime unlock through Apple's In-App Purchase system. There is no subscription or automatic renewal.</p>
+  <main id="main" class="document-shell">
+    <header class="document-hero">
+      <p class="eyebrow">PRIVACY, IN PLAIN LANGUAGE</p>
+      <h1>Privacy Policy</h1>
+      <p class="document-summary">ImagineOutfit has no user account, advertising system, analytics SDK, or image-generation backend. You choose the images, prompts, and API provider used for each generation.</p>
+      <p class="updated">Effective and last updated: September 11, 2026</p>
+    </header>
 
-    <h2>Data Processed</h2>
-    <ul>
-      <li>Reference photos and optional inspiration images selected by the user.</li>
-      <li>Outfit descriptions, prompts, style preferences, notes, and feedback.</li>
-      <li>Generated images and saved looks.</li>
-      <li>The image API provider, endpoint, model, and API credentials entered by the user, including Tencent Cloud SecretId and SecretKey.</li>
-      <li>Verified App Store transaction status and purchase dates for the Trial and Lifetime Access products.</li>
-    </ul>
+    <div class="document-layout">
+      <aside class="toc" aria-label="On this page">
+        <strong>On this page</strong>
+        <a href="#scope">Scope</a>
+        <a href="#data">Data and processing</a>
+        <a href="#providers">Providers and sharing</a>
+        <a href="#retention">Retention and deletion</a>
+        <a href="#choices">Your choices</a>
+        <a href="#security">Security and other details</a>
+        <a href="#contact">Contact</a>
+      </aside>
 
-    <h2>Use and Storage</h2>
-    <p>Selected images and prompts are sent to the image API endpoint configured by the user. Generated looks and preferences are stored locally. API keys and Tencent Cloud credential pairs are stored in the iOS Keychain. Tencent SecretKey is used locally to sign requests.</p>
-    <p>Each saved look retains a local reference-photo copy for comparison. Face, body, hand landmarks and segmentation are processed on the device; they are not stored as a biometric profile or sent to another analysis service.</p>
-    <p>Image files, protected collection backups and temporary recovery files remain on this device and are excluded from backup. Generation networking does not persist response caches, cookies or URL credentials. Generated images may be downloaded from public HTTPS locations returned by the configured provider after ImagineOutfit validates the response.</p>
-    <p>The selected provider may associate requests with the provider account represented by the credentials, and may process, retain, log, or bill API requests under its own terms and privacy policy.</p>
-    <p>StoreKit verifies trial and lifetime transactions on the device. ImagineOutfit does not send purchase history to an ImagineOutfit account or backend. Apple's purchase processing and records are governed by Apple's terms and privacy policy.</p>
+      <article class="prose">
+        <section id="scope">
+          <h2>1. Scope and who we are</h2>
+          <p>This policy applies to the ImagineOutfit iOS and iPadOS app (shown as 灵感穿搭 on Chinese-language devices) and this public website. ImagineOutfit is developed and operated by Zhichao Wei. Questions about privacy can be sent to <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>.</p>
+          <p>ImagineOutfit is a Bring Your Own Key app. The developer does not operate an image-generation server and does not receive the photos, prompts, generated images, or API credentials used in the normal generation flow.</p>
+        </section>
 
-    <h2>User Controls</h2>
-    <ul>
-      <li>Clear the saved API key from Settings.</li>
-      <li>Delete saved looks and local generated files.</li>
-      <li>Reset onboarding, API settings, language, style preferences, reference-photo copies, collection backups, temporary recovery files and local network caches. Reset invalidates in-flight local work and prevents older results from being saved. It does not revoke data already sent to a provider or cancel provider charges.</li>
-      <li>Export images to Photos only when choosing to save them.</li>
-    </ul>
+        <section id="data">
+          <h2>2. Data handled by the app</h2>
+          <h3>Content you choose</h3>
+          <ul>
+            <li>Reference photos captured with the camera or selected from Photos.</li>
+            <li>Optional inspiration images, outfit descriptions, prompts, style preferences, avoid notes, and feedback.</li>
+            <li>Generated images, saved looks, titles, categories, and notes.</li>
+          </ul>
+          <p>This content is used to prepare the generation request you ask the app to perform, display the result, compare it with your reference photo, and save a look when you choose.</p>
 
-    <h2>Tracking and Advertising</h2>
-    <p>ImagineOutfit does not use user content for third-party advertising or cross-app tracking and does not sell personal information.</p>
+          <h3>Provider configuration</h3>
+          <ul>
+            <li>The image API provider, endpoint, and model you select.</li>
+            <li>API credentials you enter, including paired credentials such as Tencent Cloud SecretId and SecretKey.</li>
+            <li>Provider task identifiers and limited recovery information needed to resume an in-progress request.</li>
+          </ul>
+          <p>Credentials are stored in the iOS Keychain. They are used only to authenticate connection tests and generation requests to the configured provider. Tencent Cloud SecretKey is used locally to sign requests.</p>
 
-    <h2>Important Limits</h2>
-    <p>AI outputs are styling inspiration only. They are not fit, body-shape, health, or purchase guarantees.</p>
+          <h3>On-device analysis</h3>
+          <p>The app may process face, body, hand landmarks, and segmentation on the device to evaluate reference-photo quality and help preserve visual details. These results are not used to identify you, are not stored as a biometric profile, and are not sent to a separate analysis service.</p>
 
-    <h2>Contact</h2>
-    <p>For privacy or support questions, use the <a href="support.html">ImagineOutfit Support page</a>.</p>
+          <h3>Purchases</h3>
+          <p>Apple StoreKit provides verified transaction status and purchase dates for the free Trial and paid Lifetime Access non-consumables. The app uses this information to unlock access. ImagineOutfit does not send purchase history to an ImagineOutfit account or backend. Apple processes purchases and maintains its own records under <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+
+          <h3>Support communications and website</h3>
+          <p>If you email, call, or open a GitHub issue, we receive the information you choose to provide so we can respond. GitHub issues are public; never include API keys or private images. This site is hosted by GitHub Pages, so GitHub may process connection information under <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's Privacy Statement</a>. This site does not use a contact form, advertising, analytics, or cookies set by ImagineOutfit.</p>
+        </section>
+
+        <section id="providers">
+          <h2>3. Image providers and data sharing</h2>
+          <p>When you tap Generate, selected images, prompts, settings, and the credentials needed for authentication are transmitted directly from your device to the provider and endpoint you configured. The selected provider may associate the request with your provider account and may process, retain, log, or bill it under its own terms and privacy policy.</p>
+          <p>The image provider is chosen, configured, and contracted with by you through your own account. It is not an ImagineOutfit advertising or analytics partner. Review the provider's privacy, retention, model-training, region, and billing settings before sending content. Do not use a provider whose protections you do not accept.</p>
+          <p>ImagineOutfit does not sell personal information or share user content with advertisers, data brokers, or cross-app tracking services. If a service ever processes data on our behalf, we will require privacy and security protection consistent with this policy and applicable law.</p>
+        </section>
+
+        <section id="retention">
+          <h2>4. Storage, retention, and deletion</h2>
+          <ul>
+            <li><strong>On your device:</strong> generated looks, reference-photo copies used for comparison, notes, preferences, protected collection backups, and temporary recovery files remain until you delete the related look, reset local data, or remove the app as applicable.</li>
+            <li><strong>Credentials:</strong> API credentials remain in the iOS Keychain until you clear them or reset the app's local data. Keychain behavior is controlled by iOS and credentials may persist after a simple app uninstall, so use the in-app Clear or Reset control first.</li>
+            <li><strong>Photos library:</strong> images exported to Photos remain there until you delete them in the Photos app.</li>
+            <li><strong>Provider data:</strong> retention and deletion are controlled by the provider you selected. Use that provider's dashboard, account controls, or support process to request deletion.</li>
+            <li><strong>Apple purchase records:</strong> purchase records are retained by Apple under its policies.</li>
+            <li><strong>Support messages:</strong> support correspondence is kept only as long as reasonably needed to resolve the request, prevent abuse, maintain necessary records, or meet legal obligations.</li>
+          </ul>
+          <p>Generation networking is configured not to persist response caches, cookies, or URL credentials. Generated images may be downloaded from public HTTPS locations returned by the configured provider after the app validates the response.</p>
+        </section>
+
+        <section id="choices">
+          <h2>5. Your privacy choices</h2>
+          <ul>
+            <li>Choose whether to take a photo or select an image, and review it before generation.</li>
+            <li>Change or revoke Camera and Photos permissions in iOS Settings.</li>
+            <li>Stop future provider transmissions by not generating and by clearing saved credentials.</li>
+            <li>Delete individual saved looks and their local image files.</li>
+            <li>Reset onboarding, provider settings, credentials, language, style preferences, reference-photo copies, local backups, recovery files, and local network caches from the app's Privacy &amp; Local Data controls.</li>
+            <li>Delete exported copies separately from the Photos app.</li>
+            <li>Use your provider's account controls to manage or delete data already sent to that provider.</li>
+          </ul>
+          <p>A local reset stops older in-flight results from being saved by the app. It cannot withdraw a request already received by a provider, erase provider or Apple records, reverse provider charges, or remove copies already exported or shared.</p>
+          <p>Because ImagineOutfit has no account or content backend, the developer normally has no server-side photo, prompt, generated image, or account record to retrieve or delete. For help understanding the controls or exercising rights that apply in your location, email <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a>.</p>
+        </section>
+
+        <section id="security">
+          <h2>6. Security, children, and international processing</h2>
+          <p>ImagineOutfit uses platform protections such as the iOS Keychain and requires HTTPS for normal remote provider endpoints. No method of storage or transmission is completely secure, and the security of provider accounts and endpoints also depends on the provider and the credentials you configure.</p>
+          <p>ImagineOutfit is not offered in the App Store's Kids category. A parent or guardian should supervise a child's use and should not submit a child's image to a provider without appropriate permission.</p>
+          <p>Your chosen provider or GitHub may process information in countries other than your own. Their locations and safeguards are described in their respective policies. By choosing a provider and asking the app to generate, you direct the app to send the selected content to that provider.</p>
+          <p>AI results are styling inspiration only. They are not fit, body-shape, health, identity, or purchase guarantees.</p>
+        </section>
+
+        <section id="changes">
+          <h2>7. Changes to this policy</h2>
+          <p>We may update this policy when the app, its data flows, or legal requirements change. The effective date at the top will be revised, and material changes will be reflected in the app or App Store information when appropriate.</p>
+        </section>
+
+        <section id="contact" class="contact-panel">
+          <p class="section-number">PRIVACY CONTACT</p>
+          <h2>Questions or requests?</h2>
+          <p><strong>Developer:</strong> Zhichao Wei<br><strong>Email:</strong> <a href="mailto:weizhichao1027@gmail.com">weizhichao1027@gmail.com</a><br><strong>Phone:</strong> <a href="tel:+8613501762709">+86&nbsp;135&nbsp;0176&nbsp;2709</a></p>
+          <p>For product troubleshooting, visit <a href="support.html">ImagineOutfit Support</a>.</p>
+        </section>
+      </article>
+    </div>
   </main>
+
+  <footer class="site-footer compact-footer">
+    <div class="section-shell footer-bottom">
+      <span>© 2026 Zhichao Wei. All rights reserved.</span>
+      <span><a href="index.html">ImagineOutfit</a> · <a href="support.html">Support</a> · <a href="zh/privacy.html" lang="zh-Hans">中文</a></span>
+    </div>
+  </footer>
 </body>
 </html>
