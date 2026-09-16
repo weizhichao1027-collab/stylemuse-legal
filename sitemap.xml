@@ -3,32 +3,86 @@
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/"/>
   </url>
   <url>
-    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html"/>
+    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/about.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/about.html"/>
   </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/support.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html"/>
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html"/>
   </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/zh/</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/"/>
   </url>
   <url>
-    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html"/>
-    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html"/>
+    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/zh/about.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/about.html"/>
   </url>
   <url>
     <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/zh/support.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/support.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/support.html"/>
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html"/>
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/llms.txt</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://weizhichao1027-collab.github.io/stylemuse-legal/llms-full.txt</loc>
+    <lastmod>2026-09-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
   </url>
 </urlset>

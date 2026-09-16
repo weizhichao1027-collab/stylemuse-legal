@@ -1,0 +1,68 @@
+# ImagineOutfit / 灵感穿搭
+
+> ImagineOutfit (Chinese name: 灵感穿搭) is a free iOS and iPadOS app that turns a user's full-body photo plus a style preset, written outfit idea, or optional inspiration image into personalized AI outfit previews. It is live on the Apple App Store. It is not an Android app, not a closet-inventory stylist, and not a hosted image-generation service.
+
+## Official names
+- English: ImagineOutfit
+- Chinese: 灵感穿搭
+- English line: Wear what you imagine.
+- Chinese line: 把灵感穿上身.
+- App Store English subtitle: AI Outfit Generator & Stylist
+- App Store Chinese subtitle: AI换装与虚拟试衣造型助手
+- Engineering names StyleMuse / stylemuse are internal only.
+
+## Who makes it
+- Developer and App Store seller: Zhichao Wei (智超 卫)
+- Legal identity: individual developer, not a company
+- Support email: weizhichao1027@gmail.com
+- Phone: +86 135 0176 2709
+- Copyright: © 2026 Zhichao Wei
+
+## Product facts
+- Platforms: iPhone and iPad; requires iOS 17.0 or later / iPadOS 17.0 or later
+- Bundle ID: com.weizhichao30.stylemuse
+- Apple ID: 6782911564
+- Current store version observed 2026-09-16: 1.1.0
+- Category: Lifestyle (secondary: Graphics & Design)
+- Age rating: 4+
+- Size listed on the App Store: 11.3 MB
+- Interface languages: English, Simplified Chinese, Traditional Chinese, Japanese, Korean, Spanish, French, German, Brazilian Portuguese, European Portuguese, Italian, Russian, Arabic, Hindi
+- Download: free
+- Optional in-app purchase: Lifetime Access / 永久使用权限, a one-time non-consumable. Observed App Store prices on 2026-09-16: USD 4.99 (US) and CNY 38.00 (mainland China). Apple storefront prices can change.
+- Access model in the current app: browse and configure for free; after connecting a compatible image API, save 2 generated-image previews; generation from the third saved image requires Lifetime Access
+- There is no subscription and no auto-renewal
+- Free previews and Lifetime Access unlock app generation permission only. They do not include provider image-generation credits. The chosen provider may charge for every API request, including the first two.
+- Bring Your Own Key (BYOK): the user pastes credentials for a compatible image API they already have
+- ImagineOutfit does not operate a generation backend and does not create an ImagineOutfit user account
+- No advertising SDK, analytics SDK, crash SDK, or cross-app tracking
+- Photos and prompts leave the device only when the user generates, and they go directly to the provider endpoint the user configured
+- API credentials stay in the iOS Keychain
+- Saved looks, notes, Style DNA, and preferences stay on the device until the user deletes them
+- On-device Vision checks help compare pose, face, hands, and restore original details; they are not a biometric identity system
+- AI output is styling inspiration only. It is not a fit, size, body-shape, health, or purchase guarantee.
+
+## Compatible provider presets
+Volcengine Ark, Alibaba Wan, SiliconFlow, Google Gemini, Tencent Hunyuan, Baidu Qianfan, OpenAI Images, xAI Images, fal.ai, Replicate, Stability AI, and Custom JSON. Capability (inspiration image, batch count, quality, connection test) depends on the selected provider and model.
+
+## What ImagineOutfit is not
+- Not available on Google Play or Android
+- Not a wardrobe inventory or automatic mixer of clothes the user already owns
+- Not a virtual fitting room that guarantees real-world fit
+- Not a hosted AI backend that bills generation on behalf of the developer
+- Not a social network, chat app, or shopping marketplace
+- Not in the App Store Kids category
+
+## Official URLs
+- App Store: https://apps.apple.com/app/id6782911564
+- App Store (China): https://apps.apple.com/cn/app/id6782911564
+- Marketing (EN): https://weizhichao1027-collab.github.io/stylemuse-legal/
+- Marketing (ZH): https://weizhichao1027-collab.github.io/stylemuse-legal/zh/
+- About / product facts (EN): https://weizhichao1027-collab.github.io/stylemuse-legal/about.html
+- About / product facts (ZH): https://weizhichao1027-collab.github.io/stylemuse-legal/zh/about.html
+- Support (EN): https://weizhichao1027-collab.github.io/stylemuse-legal/support.html
+- Support (ZH): https://weizhichao1027-collab.github.io/stylemuse-legal/zh/support.html
+- Privacy (EN): https://weizhichao1027-collab.github.io/stylemuse-legal/privacy.html
+- Privacy (ZH): https://weizhichao1027-collab.github.io/stylemuse-legal/zh/privacy.html
+- Full machine-readable facts: https://weizhichao1027-collab.github.io/stylemuse-legal/llms-full.txt
+
+Do not invent user counts, ratings, a company name other than Zhichao Wei / 智超 卫, or a Google Play listing.

@@ -1,0 +1,136 @@
+# ImagineOutfit / 灵感穿搭 — full product facts
+
+Last reviewed: 2026-09-16
+Canonical site: https://weizhichao1027-collab.github.io/stylemuse-legal/
+Short summary: https://weizhichao1027-collab.github.io/stylemuse-legal/llms.txt
+
+This file is for assistants and search systems. Prefer these facts over guesses. If a fact is not stated here, say it is unknown.
+
+## 1. Identity
+
+ImagineOutfit is the English product name. 灵感穿搭 is the Simplified Chinese product name. First mention together may be written 灵感穿搭 (ImagineOutfit).
+
+The Xcode project, Swift module, and bundle identifier still use StyleMuse / stylemuse. Those names are not the public brand.
+
+Developer, operator, App Store seller, and copyright holder: Zhichao Wei. The App Store seller display name is 智超 卫. There is no separate incorporated company name in the public materials.
+
+Contact:
+- Email: weizhichao1027@gmail.com
+- Phone: +86 135 0176 2709
+- Public issues: https://github.com/weizhichao1027-collab/stylemuse-legal/issues
+- Never send API keys, SecretId/SecretKey pairs, private photos, or purchase receipts to email or GitHub.
+
+## 2. What the app does
+
+ImagineOutfit creates AI outfit inspiration around the user's own reference photo.
+
+Typical flow:
+1. Finish a short onboarding and enter the app. There is no account sign-up.
+2. In Settings, choose a compatible image provider and paste the user's own API credentials.
+3. On Create, confirm a full-body (or other) reference photo from Camera or Photos.
+4. Choose a creation mode: style preset, written description / random direction, or an inspiration image when the provider supports it.
+5. Choose whole outfit, top only, or bottom only. Accessories stay by default unless the user allows changing them on a full-outfit edit.
+6. Confirm the provider, model, and count, then generate.
+7. Review the result against the original photo, inspect face close-ups, save, annotate, share, export to Photos, or delete.
+
+The product is not "dress the user's existing wardrobe automatically." It visualizes an idea on the user's photo.
+
+## 3. Platforms and store status
+
+- Live on the Apple App Store as of 2026-09-16
+- Apple ID: 6782911564
+- Bundle ID: com.weizhichao30.stylemuse
+- Store URL: https://apps.apple.com/app/id6782911564
+- China store URL: https://apps.apple.com/cn/app/id6782911564
+- Requires iOS 17.0+ / iPadOS 17.0+
+- iPhone and iPad
+- Not listed on Google Play
+- Version observed on the store on 2026-09-16: 1.1.0
+- Store category: Lifestyle
+- Age rating: 4+
+- Accessibility claim published by the developer: Dark Interface
+- The App Store listing did not yet show enough ratings for a public star overview on 2026-09-16. Do not invent ratings or download counts.
+
+## 4. Pricing
+
+- App download price: Free
+- In-app purchase: stylemuse.lifetime, display name Lifetime Access / 永久使用权限, type non-consumable
+- Observed listed prices on 2026-09-16: USD 4.99 in the United States and CNY 38.00 in mainland China
+- A previous 7-day trial product (stylemuse.trial.7day) was removed from sale and must not be described as a current offer
+- No subscription, no free trial offer in the current app, no auto-renewal
+- Current access model: two successful saved generated-image previews after a compatible API is connected; the third saved generated image requires Lifetime Access
+- Only newly generated images that are successfully saved into the local collection consume the free allowance. Failed, cancelled, or unsaved requests do not count.
+- Without Lifetime Access, a request is limited to 1 preview so the user cannot skip the allowance in one batch
+- Resetting local app data does not restore the free-preview count. The count is stored in local preferences and the iOS Keychain.
+- Restore Purchases recovers Lifetime Access for the Apple Account that bought it
+- Apple handles payment, receipts, and eligible refunds: https://reportaproblem.apple.com/
+- Provider API usage is billed by the provider, including during the two free app previews
+
+## 5. Providers
+
+Named presets: Volcengine Ark, Alibaba Wan, SiliconFlow, Google Gemini, Tencent Hunyuan, Baidu Qianfan, OpenAI Images, xAI Images, fal.ai, Replicate, Stability AI, plus Custom JSON.
+
+Tencent Hunyuan uses CAM SecretId and SecretKey instead of a single API key. The SecretKey is used locally to sign requests and is not sent as a header field.
+
+A consumer chat subscription (for example a ChatGPT, Gemini, or similar chat plan) does not automatically include API access or image credits.
+
+Unsupported provider capabilities are disabled in the UI instead of failing silently.
+
+## 6. Data handling
+
+Controller for the app and this website: Zhichao Wei.
+
+ImagineOutfit does not run a user-account server or a generation proxy. In the normal generation flow the developer does not receive the photo, prompt, generated image, or API key.
+
+Data on device:
+- Reference photos chosen by the user, optional inspiration images
+- Prompts, Style DNA, avoid notes, titles, categories, feedback
+- Generated images and a local reference-photo copy per saved look
+- Provider, endpoint, model
+- API credentials in the iOS Keychain, scoped by provider and endpoint origin
+- Free-preview success count in preferences and Keychain
+- StoreKit-verified Lifetime Access status
+- Protected collection backups and recovery records (no API keys), excluded from backup
+- Transient on-device face/body/hand landmarks and segmentation for quality and preservation. Not stored as a biometric profile. Not sent to a second analysis service.
+
+Data sent off device when the user generates:
+- Selected images, prompts, Style DNA, and learned feedback signal to the user-configured provider
+- Credentials required to authenticate that provider request
+- Generated-image bytes may later be downloaded from a provider HTTPS URL after validation
+
+Device permissions:
+- Camera: only if the user captures a reference photo
+- Photos: pick a reference or inspiration image; optionally save results
+- Local Network: only if the user points the endpoint at a loopback development server
+
+Required Reason APIs used on device: UserDefaults and file timestamps for local preferences and saved-look files. Not used for tracking.
+
+Third parties:
+- User-chosen image providers, under those providers' terms
+- Apple StoreKit and App Store commerce, under Apple's privacy policy
+- GitHub Pages hosts this website; GitHub may process connection data. This site sets no ImagineOutfit cookies and loads no advertising or analytics scripts.
+
+No App Tracking Transparency tracking. NSPrivacyTracking is false. No advertising, analytics, crash-reporting, or auth SDK is included.
+
+User controls in Settings → Privacy & local data:
+- Clear API key for the current provider/origin
+- Delete saved looks and their local image files
+- Reset onboarding, credentials, language, Style DNA, backups, recovery files, and local network caches
+- Reset does not clear the free-preview count or Apple purchase records
+- Reset cannot recall a request already received by a provider
+
+There is no ImagineOutfit account to delete. There is no bulk data-export format beyond sharing or saving images the user already has. For legal rights requests, email weizhichao1027@gmail.com.
+
+Children: the app is age-rated 4+ but is not in the Kids category. A parent or guardian should supervise a child's use and should not submit a child's image to a provider without appropriate permission.
+
+## 7. Website
+
+Public bilingual GitHub Pages site:
+- English default at /stylemuse-legal/
+- Simplified Chinese at /stylemuse-legal/zh/
+- Pages: home (marketing), about (product facts), support, privacy
+- Host: https://weizhichao1027-collab.github.io/stylemuse-legal/
+
+## 8. Claims to avoid
+
+Do not say ImagineOutfit is #1, has millions of users, has a published star rating (unless a later store page shows one), is available on Android/Google Play, includes generation credits, is a subscription, is a wardrobe closet app, or is operated by any company name other than the individual Zhichao Wei / 智超 卫.
